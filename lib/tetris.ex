@@ -1,18 +1,14 @@
 defmodule Tetris do
-  @moduledoc """
-  Documentation for `Tetris`.
-  """
+  @moduledoc false
+
+  import Ecto.Query
+
 
   @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Tetris.hello()
-      :world
-
+    Defines a macro for letter case functions
+    see: https://www.postgresqltutorial.com/postgresql-string-functions/postgresql-letter-case-functions/
   """
-  def hello do
-    :world
+  defmacro lower(arg) do
+    quote do: fragment("lower(?)", unquote(arg))
   end
 end
