@@ -4,7 +4,9 @@ Practicing creating macros by extending Ecto with fancy postgres features
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
+`mix deps.get` then `mix ecto.create`
+
+<!-- If [available in Hex](https://hex.pm/docs/publish), the package can be installed
 by adding `tetris` to your list of dependencies in `mix.exs`:
 
 ```elixir
@@ -17,4 +19,4 @@ end
 
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/tetris>.
+be found at <https://hexdocs.pm/tetris>. -->
